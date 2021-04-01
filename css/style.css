@@ -7,12 +7,12 @@ main {
   margin: 0 auto;
   width: 1130px;
   height: 830px;
+  background: #e5e5e5;
+}
+.container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-.container {
-  margin: 90px 0 90px 0;
 }
 .car {
   width: 740px;
@@ -43,4 +43,71 @@ p span {
   line-height: 35px;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
+}
+.girl {
+  width: 360px;
+  height: 540px;
+  background: #ffffff;
+}
+.pic2 {
+  width: 360px;
+  height: 251px;
+}
+.girl p {
+  position: absolute;
+  color: #818181;
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin: 25px 229px 248px 25px;
+}
+.girl h2 {
+  position: absolute;
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin: 61px 31px 150px 25px;
+  width: 304px;
+  height: 78px;
+
+  color: #1d1d1d;
+}
+.flower {
+  width: 360px;
+  height: 540px;
+  background: #ffffff;
+}
+.pic3 {
+  width: 360px;
+  height: 251px;
+}
+.flower p {
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin: 25px 229px 248px 25px;
+
+  color: #818181;
+}
+.flower h2 {
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  width: 296px;
+  height: 78px;
+  margin: 61px 39px 150px 25px;
+
+  color: #1d1d1d;
 }
