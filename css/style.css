@@ -7,29 +7,35 @@ main {
   width: 1170px;
   height: 1100px;
   margin: 0 auto;
-  background: #e5e5e5;
 }
 .container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 60px;
+  margin-bottom: 90px;
+  background: #e5e5e5;
 }
 .car {
   width: 740px;
   height: 540px;
-}
-.car {
   position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.pic1 {
+  width: 740px;
+  height: 540px;
 }
 p {
   position: absolute;
 }
 p span {
   position: absolute;
-  margin: -120px 609px 0 24px;
+  margin: -120px 602px 0 24px;
   color: white;
   font-size: 14px;
-  width: 110px;
+  width: 113px;
   line-height: 16px;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
@@ -39,7 +45,7 @@ p span {
   margin: -82px 297px 11px 24px;
   color: white;
   font-size: 30px;
-  width: 435px;
+  width: 448px;
   line-height: 35px;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
@@ -48,6 +54,7 @@ p span {
   width: 360px;
   height: 540px;
   background: #ffffff;
+  margin-bottom: 20px;
 }
 .pic2 {
   width: 360px;
@@ -78,10 +85,14 @@ p span {
 
   color: #1d1d1d;
 }
+.girl .avatar {
+  margin: 210px 281px 25px 25px;
+}
 .flower {
   width: 360px;
   height: 540px;
   background: #ffffff;
+  margin-right: 20px;
 }
 .pic3 {
   width: 360px;
@@ -111,10 +122,14 @@ p span {
 
   color: #1d1d1d;
 }
+.flower .avatar {
+  margin: -65px 281px 25px 25px;
+}
 .legs {
   width: 360px;
   height: 540px;
   background: #ffffff;
+  margin-right: 20px;
 }
 .pic4 {
   width: 360px;
@@ -149,6 +164,9 @@ p span {
 
   color: #1d1d1d;
 }
+.legs .avatar {
+  margin: 210px 281px 25px 25px;
+}
 .city {
   width: 360px;
   height: 540px;
@@ -181,4 +199,11 @@ p span {
   text-transform: uppercase;
 
   color: #1d1d1d;
+}
+.city .avatar {
+  margin: -65px 281px 25px 25px;
+}
+.avatar {
+  width: 54px;
+  height: 54px;
 }
