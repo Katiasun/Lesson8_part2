@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 main {
+  width: 1170px;
+  height: 1100px;
   margin: 0 auto;
-  width: 1130px;
-  height: 830px;
   background: #e5e5e5;
 }
 .container {
@@ -108,6 +108,77 @@ p span {
   width: 296px;
   height: 78px;
   margin: 61px 39px 150px 25px;
+
+  color: #1d1d1d;
+}
+.legs {
+  width: 360px;
+  height: 540px;
+  background: #ffffff;
+}
+.pic4 {
+  width: 360px;
+  height: 251px;
+}
+.legs p {
+  width: 106px;
+  height: 16px;
+
+  margin: 25px 229px 248px 25px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #818181;
+}
+.legs h2 {
+  position: absolute;
+  width: 290px;
+  height: 78px;
+  margin: 61px 45px 150px 25px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+
+  color: #1d1d1d;
+}
+.city {
+  width: 360px;
+  height: 540px;
+  background: #ffffff;
+}
+.city p {
+  width: 106px;
+  height: 16px;
+  margin: 25px 229px 248px 25px;
+
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #818181;
+}
+.city h2 {
+  width: 266px;
+  height: 78px;
+  margin: 61px 69px 150px 25px;
+
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
 
   color: #1d1d1d;
 }
