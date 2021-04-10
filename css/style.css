@@ -1,5 +1,5 @@
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,173 +11,69 @@ main {
   margin: 100px auto 0;
   width: 1120px;
 }
-.col-8 {
-  background: url("/img/Car.png");
-  width: 740px;
-  height: 540px;
-  margin-right: 20px;
+
+.card-big {
+  background: url("../img/Car.png");
+
+  min-height: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 30px;
 }
-.col-8 p {
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
+.card-big p {
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-  margin-top: 433px;
-  margin-left: 24px;
+  margin-bottom: 15px;
+  margin-left: 20px;
 
   color: rgba(255, 255, 255, 0.5);
 }
-.col-8 h2 {
-  font-family: "MRaleway", sans-serif;
-  font-style: normal;
+.card-big h2 {
+  font-family: "Raleway", sans-serif;
+
   font-weight: bold;
   font-size: 30px;
   line-height: 35px;
   text-transform: uppercase;
-  margin-bottom: 11px;
-  margin-left: 24px;
+  margin-left: 20px;
   width: 448px;
 
   color: #ffffff;
 }
-.girl {
-  width: 360px;
-  height: 540px;
+.card {
+  display: flex;
+  flex-direction: column;
+  min-height: 540px;
+}
+.card__content {
   background: #ffffff;
-}
-.girl img {
-  width: 360px;
-  height: 251px;
-}
-.girl p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  margin-left: 25px;
-  margin-top: 25px;
-
-  color: #818181;
-}
-.girl h3 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 26px;
-  text-transform: uppercase;
-  width: 304px;
-
-  margin-left: 25px;
-  margin-top: 30px;
-
-  color: #1d1d1d;
-}
-.flower {
-  width: 360px;
-  height: 540px;
-  background: #ffffff;
-  margin-right: 20px;
-}
-.flower img {
-  width: 360px;
-  height: 251px;
-}
-.flower p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  margin-top: 25px;
-  margin-left: 25px;
-
-  color: #818181;
-}
-.flower h3 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 26px;
-  text-transform: uppercase;
-  margin-left: 25px;
-  margin-top: 30px;
-  width: 290px;
-
-  color: #1d1d1d;
-}
-.legs {
-  width: 360px;
-  height: 540px;
-  background: #ffffff;
-  margin-right: 20px;
-}
-.legs img {
-  width: 360px;
-  height: 251px;
-}
-.legs p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  margin-top: 25px;
-  margin-left: 25px;
-
-  color: #818181;
-}
-.legs h3 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 26px;
-  text-transform: uppercase;
-  margin-left: 25px;
-  margin-top: 30px;
-  width: 290px;
-
-  color: #1d1d1d;
-}
-.city {
-  width: 360px;
-  height: 540px;
-  background: #ffffff;
-  margin-right: 20px;
-}
-.city img {
-  width: 360px;
-  height: 251px;
-}
-.city p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  margin-top: 25px;
-  margin-left: 25px;
-
-  color: #818181;
-}
-.city h3 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 26px;
-  text-transform: uppercase;
-  margin-left: 25px;
-  margin-top: 30px;
-  width: 290px;
-
-  color: #1d1d1d;
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 .avatar {
   width: 54px;
   height: 54px;
-  border-radius: 50%;
-  margin-left: 25px;
-  margin-top: -42px;
+}
+.card__content h3 {
+  margin-bottom: auto;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+
+  color: #1d1d1d;
+}
+.card__content p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #818181;
 }
